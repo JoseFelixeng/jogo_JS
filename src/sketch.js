@@ -37,24 +37,24 @@ let timeS;
 
 function preload() {
   soundFormats('mp3');
-  snd = createAudio("som1.mp3")
-  snd1 = createAudio("som2.mp3")
-  snd2 = createAudio("som3.mp3")
-  snd3 = createAudio("som4.mp3")
-  snd4 = createAudio("youwin.mp3")
-  snd5 = createAudio("som6.mp3")
+  snd = createAudio("/music/som1.mp3")
+  snd1 = createAudio("/music/som2.mp3")
+  snd2 = createAudio("/music/som3.mp3")
+  snd3 = createAudio("/music/som4.mp3")
+  snd4 = createAudio("/music/youwin.mp3")
+  snd5 = createAudio("/music/som6.mp3")
   
-  img1 = loadImage('1.jpeg');
-  img2 = loadImage('2.jpeg');
-  img3 = loadImage('3.jpg');
-  img4 = loadImage('nave1.jpg');
-  img5 = loadImage('4.jpg')
-  img6 = loadImage('menu.png')
-  img7 = loadImage('tut1.jpg')
-  img8 = loadImage('tut2.jpg')
-  img9 = loadImage('tut3.jpg')
-  img10 = loadImage('tut4.jpg')
-  img11 = loadImage('tut5.jpg')
+  img1 = loadImage('/Img/1.jpeg');
+  img2 = loadImage('/Img/2.jpeg');
+  img3 = loadImage('/Img/3.jpg');
+  img4 = loadImage('/Img/nave1.jpg');
+  img5 = loadImage('/Img/4.jpg')
+  img6 = loadImage('/Img/menu.png')
+  img7 = loadImage('/Img/tut1.jpg')
+  img8 = loadImage('/Img/tut2.jpg')
+  img9 = loadImage('/Img/tut3.jpg')
+  img10 = loadImage('/Img/tut4.jpg')
+  img11 = loadImage('/Img/tut5.jpg')
  
 }
 
